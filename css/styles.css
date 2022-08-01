@@ -251,7 +251,8 @@ p {
 }
 
 .section-3-cardContainer-card-content a {
-  text-decoration: none;
+  color: var(--dark-blue);
+    text-decoration: none;
 }
 
 .section-3-cardContainer-card-content h3 {
@@ -260,7 +261,7 @@ p {
   font-weight: 400;
 }
 
-.section-3-cardContainer-card-content h3:hover {
+.section-3-cardContainer-card-content a:hover {
   color: var(--lime-green);
   opacity: 0.5;
 }
